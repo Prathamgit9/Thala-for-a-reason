@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Thala For a Reason</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Thala For a Reason</h1>
+        <div id="input-container">
+            <label for="userInput">Enter a number or string:</label>
+            <input type="text" id="userInput" placeholder="Enter here">
+            <button onclick="checkInput()">Submit</button>
+        </div>
+        <div id="result-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p id="result-message"></p>
+                <button class="result-button" onclick="tryAgain()">Try Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
