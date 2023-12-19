@@ -1,2 +1,2 @@
-## the link for the website made : 
+## The link for the website I made : 
 https://thala-for-a-reason.tiiny.site
